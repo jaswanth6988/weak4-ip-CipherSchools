@@ -1,0 +1,84 @@
+/*//data types
+
+//Syntax and declarations
+
+var score = 10;       //ESS-Ecna
+let result = 50;      //ES^-Ecmascript 2015
+const pi = 3.14       //ES6
+
+score=15;
+result = 55;
+pi = 3.26
+
+console.log(score);
+console.log(result);
+console.log(pi);
+
+
+//Datatypes
+/* 1.nimber
+   2.Strings
+   3.Boolean
+   4.Null
+   5.Undefined
+   6.Objects
+   7.Symbols (es6)
+   LOosely Typed
+   */
+  
+/*let score = 10; //number
+let result = "10"; //String
+
+//BEDMAS
+let finalscore = score + result;  //Concatenating
+let penalty = score-result;        //Mathematical
+let totalGames = 5;
+let avgScore = finalscore / totalGames;
+
+console.log(avgscore)
+console.log(finalscore,penalty);
+//typer
+console.log(typeof finalscore);
+console.log(typeof penalty);
+console.log(typeof avgscore);
+
+let value = (finalscore**2)+10/(penalty+totalGames)
+
+console.log(penalty+totalGames);
+
+console.log(value); //value = NaN*/
+
+//Strings
+
+console.log(typeof "it's raining");
+
+let word = "raining"
+let number = "raining"
+let string = "string as a name"
+let string=1009878;
+console.log(string)
+
+console.log(word.toUpperCase()):
+console.log(strings);
+
+console.log("hello".chartat(4))
+
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof "five")
+
+let condition = 10/'hello':
+if('hello'){
+    console.log("Very true!!")
+}else{
+    console.log("very wrong!!")
+}
+
+console.log('hello'.includes('e'));
+
+//Null Undefined
+let score;
+let result = null;
+
+console.log(typeof score);
+console.log(typeof result)

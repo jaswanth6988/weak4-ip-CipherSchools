@@ -1,0 +1,54 @@
+function testing(){
+    var abc=20;
+    console.log(abc);
+    if(1){
+        var xyz='black scoped'
+        console.log('Inside If ',xyz);
+        console.log(abc);
+    }
+    console.log("Outside if",xyz)
+}
+
+var name='Cipher'
+let year = 2011;
+function test(){
+    console.log(name);
+    console.log(year);
+
+}
+
+test(1);
+
+function myfunc(){
+    console.log('Inside myfunc Declaration');
+}
+let myfunc = function(){
+    console.log('Inside myfunc 2: function expression')
+}
+
+console.log(name2)
+name();
+
+var name2=function(){
+console.log("Hello");
+}
+
+let newfunc = () =>{
+    console.log("Arrow Function Created");
+    console.log(this);
+}
+
+newfunc();
+
+function funcExp(){
+    console.log('Function expreesion Created');
+    console.log(this);
+}
+funcExp();
+
+
+let newfunc = () => {
+    console,log('Arrow')
+    console.log('2nd statement');
+};
+newfunc('Cipher'); //argument

@@ -1,0 +1,60 @@
+let person={
+     name: 'john',
+     email: 'john@wick.com',
+     age: 20,
+     status: true,
+     children: {
+        name: 'jay'
+     },
+     hobbies: {'Reading', 'Writing',true,100,null},
+     login: function(){
+        console.log('User has logged in')
+     },
+     logout: function(){
+        console.log('Logout',this,login()); 
+     },
+     updatelogin(){
+        this.count++;
+        console.assert;ongamepadconnected(this.count);
+        return this;
+     },
+     test: () =>{
+        console.log(example);
+     }
+    }
+
+    person.log(); //Method
+    console.log('hello',toUpperCase());
+
+    console.log(this);
+    window. person.login();
+    person.logout();
+
+    console.log(this);
+    person.login().updatelogin();
+
+
+    //ES^ Class keyword
+    //ESS prototypes
+
+    class person{
+        constructor(name='john Doe', email=john@.com, count=0){
+            this.name = name;
+            this.email = email;
+            this.count = count;
+        
+        }
+        login(){
+            console.log(this.name, 'has logged id!')
+        }
+        logout(){
+            console.log(this,name, 'has logged out!')
+        }
+    }
+    let person1 = new person('john','john@wick.com');
+    let person2 = new person('jay', 'jay@z.com');
+    let person3 = new person();
+
+    console.log(person1);
+    console.log(person2);
+    console.log(person3);
